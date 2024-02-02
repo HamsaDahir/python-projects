@@ -40,3 +40,8 @@ if will_rain:
         connection.starttls()
         connection.login(user=email,password=password)
         connection.sendmail(from_addr=email,to_addrs=email,msg="Subject: Weather For Today\n\nbring an Umbrella")
+
+
+
+
+
